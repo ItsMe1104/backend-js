@@ -1,0 +1,14 @@
+backend file structure
+
+1) src -->
+	a) index --> where DB connects
+	b) App --> config, cookies, etc
+	c) constants --> enums, DB-name
+2) DB --> code to connect with database
+3) Models --> Schema or structure for data
+4) Controllers --> methods which take data and process it
+5) Routes --> code to route to a specific page
+6) Middlewares--> to understand practically
+7) Utils --> utility functions like mail or file upload
+8) More --> if needed
+
